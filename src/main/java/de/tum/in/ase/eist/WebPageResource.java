@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class WebPageResource {
 
+
 	private final QueryProcessor queryProcessor;
 
 	public WebPageResource(QueryProcessor queryProcessor) {
